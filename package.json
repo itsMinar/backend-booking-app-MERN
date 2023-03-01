@@ -1,0 +1,20 @@
+{
+    "name": "booking-app",
+    "version": "1.0.0",
+    "description": "This is the backend of the Booking app",
+    "main": "index.js",
+    "author": "Md. Minar Munshi",
+    "license": "MIT",
+    "scripts": {
+        "start": "node ./index.js",
+        "dev": "nodemon ./index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
