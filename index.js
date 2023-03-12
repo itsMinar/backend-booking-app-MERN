@@ -80,6 +80,11 @@ app.get('/profile', (req, res) => {
     }
 });
 
+// logout route for logout the user
+app.post('/logout', (req, res) => {
+    res.cookie('token', '').json(true);
+});
+
 // testing route
 app.get('/test', (req, res) => {
     res.status(200).json({
